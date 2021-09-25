@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shellhacks-AlphaJ/on-a-mission.git"
+  },
+  "author": "AlphaJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shellhacks-AlphaJ/on-a-mission/issues"
+  },
+  "homepage": "https://github.com/Shellhacks-AlphaJ/on-a-mission#readme",
+  "dependencies": {
+    "firebase": "^9.1.0"
+  }
+}

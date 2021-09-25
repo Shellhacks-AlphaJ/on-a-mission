@@ -1,19 +1,27 @@
 {
-  "name": "api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shellhacks-AlphaJ/on-a-mission.git"
-  },
-  "author": "AlphaJ",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Shellhacks-AlphaJ/on-a-mission/issues"
-  },
-  "homepage": "https://github.com/Shellhacks-AlphaJ/on-a-mission#readme"
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shellhacks-AlphaJ/on-a-mission.git"
+    },
+    "author": "AlphaJ",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shellhacks-AlphaJ/on-a-mission/issues"
+    },
+    "homepage": "https://github.com/Shellhacks-AlphaJ/on-a-mission#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "firebase": "^9.1.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
 }
