@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Test</title>
+    <link rel="stylesheet" type="text/css" href="./styles/joshtest.css">
+</head>
+
+<body>
+    <!-- Slider for Time -->
+    <div class="slidercontainer">
+        <div class="input-container">
+            <input type="range" min="1" max="60" value="30" class="slider" id="time-range" step="1">
+            <label for="time-range" id="lbl-time-range">30 minutes</label>
+        </div>
+        <button class="btn" onclick="begin()">Start</button>
+        <div class="countdown">
+            10:00
+        </div>
+    </div>
+
+
+
+
+    <script src="scripts/joshtest.js" defer></script>
+</body>
+
+</html>

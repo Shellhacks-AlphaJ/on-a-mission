@@ -1,0 +1,84 @@
+{
+    "missions": [
+        {
+            "name": "algebra project",
+            "difficulty": 1,
+            "time": 2,
+            "completed": false,
+            "tasks": null
+        },
+        {
+            "name": "read book",
+            "difficulty": 5,
+            "time": 4,
+            "completed": false,
+            "tasks": [
+                {
+                    "name": "read pages 1-50",
+                    "difficulty": 1,
+                    "time": 2,
+                    "completed": false,
+                    "tasks": null
+                },
+                {
+                    "name": "read pages 51-100",
+                    "difficulty": 1,
+                    "time": 2,
+                    "completed": false,
+                    "tasks": null
+                },
+                {
+                    "name": "read pages 101-200",
+                    "difficulty": 1,
+                    "time": 2,
+                    "completed": false,
+                    "tasks": null
+                },
+                {
+                    "name": "read pages 201-250",
+                    "difficulty": 1,
+                    "time": 2,
+                    "completed": false,
+                    "tasks": null
+                }
+            ]
+        },
+        {
+            "name": "song project",
+            "difficulty": 7,
+            "time": 10,
+            "completed": false,
+            "tasks": [
+                {
+                    "name": "create song class",
+                    "difficulty": 1,
+                    "time": 2,
+                    "completed": false,
+                    "tasks": null
+                },
+                {
+                    "name": "javafx",
+                    "difficulty": 4,
+                    "time": 4,
+                    "completed": false,
+                    "tasks": [
+                        {
+                            "name": "create add/edit/delete buttons",
+                            "difficulty": 1,
+                            "time": 2,
+                            "completed": false,
+                            "tasks": null
+                        },
+                        {
+                            "name": "create lists for songs",
+                            "difficulty": 1,
+                            "time": 2,
+                            "completed": false,
+                            "tasks": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

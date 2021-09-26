@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #fff;
+    /* height: 100vh; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+header {
+    background-color: #7868e6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 15px;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+.nav_links li a:hover {
+    background: #fff;
+    color: #7868e6;
+    transition: all 0.15s ease 0s;
+}
+
+.sign_in {
+    /* background: #fff; */
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 15px;
+    font-size: 1em;
+    padding: 6px 15px;
+    background-color: #72a2ff;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.sign_in:hover {
+    background: #4e4682;
+    color: #fff;
+    transition: all 0.15s ease 0s;
+}
+
+main .space {
+    position: absolute;
+    width: 2375px;
+    height: 1212px;
+    margin-top: -310px;
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+    max-width: 100%;
+    overflow: hidden;
+    opacity: 75%;
+}
+
+main .cloud {
+    margin-top: -100px;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    z-index: -999;
+    overflow: hidden;
+}
+
+main .astronaut {
+    top: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 1300px;
+    z-index: -998;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 654.82px;
+    filter: drop-shadow(10px 6px 12px #000);
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 175px;
+    margin-left: 150px;
+    padding: 12px 15px;
+}
+
+main section h1 {
+    top: 0px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 7em;
+    color: #473e84;
+}
+
+main section p {
+    font-weight: 400;
+    font-size: 3em;
+    color: #a6a0dd;
+    padding-bottom: 2 0px;
+}
+
+.sign_in2 {
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px 24px;
+    font-size: 1em;
+    background-color: #473e84;
+    background-position: 50% 50%;
+    color: #fff;
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.sign_in2:hover {
+    background: #72a2ff;
+    color: #fff;
+    transition: all 0.15s ease 0s;
+}

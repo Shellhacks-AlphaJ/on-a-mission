@@ -19,9 +19,12 @@
     "dependencies": {
         "express": "^4.17.1",
         "firebase": "^9.1.0",
+        "firebase-admin": "^9.11.1",
+        "joi": "^17.4.2",
         "morgan": "^1.10.0"
     },
     "devDependencies": {
+        "dotenv": "^10.0.0",
         "nodemon": "^2.0.13"
     }
 }
